@@ -19,3 +19,4 @@ class Game(Base):
         return f'Game(id={self.id}, ' + \
             f'title="{self.title}", ' + \
             f'platform="{self.platform})"'
+
